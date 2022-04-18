@@ -13,3 +13,8 @@ h1 {
 .main {
     font-size: 72px;
 }
+
+img {
+    width: 400px;
+    height: auto;
+}
