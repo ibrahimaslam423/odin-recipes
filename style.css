@@ -1,15 +1,13 @@
 * {
     font-family: 'Courier New', Courier, monospace, sans-serif;
-    text-align: left;
 }
 
 h1 {
     font-weight: 100;
     color: darkgreen;
     font-size: 200px;
-    background-color: honeydew;
     padding: 0px;
-    margin: 50px;
+    text-align: center;
 }
 
 .main {
@@ -33,6 +31,22 @@ h3 {
     font-size: 36px;
 }
 
-p {
-    margin-left: 50px;
+a {
+    font-size: 52px;
+}
+
+
+.flex-container {
+    margin: 20em;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+.heading {
+    margin: 50px;
+    display: flex;
+    background-color: honeydew;
+    justify-content: center;
+    align-items: center;
 }
